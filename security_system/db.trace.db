@@ -1,0 +1,87 @@
+2022-06-04 12:51:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]user (id integer not null, email varchar(255), password varchar(255), username varchar(255), primary key (id))"; expected "identifier"; SQL statement:
+create table user (id integer not null, email varchar(255), password varchar(255), username varchar(255), primary key (id)) [42001-212]
+2022-06-04 12:53:24 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (email, password, username, id) values (?, ?, ?, ?)"; expected "identifier"; SQL statement:
+insert into user (email, password, username, id) values (?, ?, ?, ?) [42001-212]
+2022-06-04 12:53:42 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select user0_.id as id1_0_, user0_.email as email2_0_, user0_.password as password3_0_, user0_.username as username4_0_ from [*]user user0_ where user0_.username=?"; expected "identifier"; SQL statement:
+select user0_.id as id1_0_, user0_.email as email2_0_, user0_.password as password3_0_, user0_.username as username4_0_ from user user0_ where user0_.username=? [42001-212]
+2022-06-04 12:55:48 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select * from [*]user"; expected "identifier"; SQL statement:
+select * from user [42001-212]
+2022-06-04 13:04:57 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]user (id integer not null, email varchar(255), password varchar(255), username varchar(255), primary key (id))"; expected "identifier"; SQL statement:
+create table user (id integer not null, email varchar(255), password varchar(255), username varchar(255), primary key (id)) [42001-212]
+2022-06-04 13:08:40 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select * from [*]user"; expected "identifier"; SQL statement:
+select * from user [42001-212]
+2022-06-04 13:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select * from [*]user"; expected "identifier"; SQL statement:
+select * from user [42001-212]
+2022-06-04 13:09:26 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select * from [*]user"; expected "identifier"; SQL statement:
+select * from user [42001-212]
+2022-06-04 13:11:08 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select * from [*]user"; expected "identifier"; SQL statement:
+select * from user [42001-212]
+2022-06-04 13:11:09 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select * from [*]user"; expected "identifier"; SQL statement:
+select * from user [42001-212]
+2022-06-04 13:11:14 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select * from [*]User"; expected "identifier"; SQL statement:
+select * from User [42001-212]
+2022-06-04 13:11:35 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select*from [*]User"; expected "identifier"; SQL statement:
+select*from User [42001-212]
+2022-06-04 13:11:36 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select*from [*]User"; expected "identifier"; SQL statement:
+select*from User [42001-212]
+2022-06-04 13:11:36 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select*from [*]User"; expected "identifier"; SQL statement:
+select*from User [42001-212]
+2022-06-04 13:11:36 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select*from [*]User"; expected "identifier"; SQL statement:
+select*from User [42001-212]
+2022-06-04 13:11:37 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select*from [*]User"; expected "identifier"; SQL statement:
+select*from User [42001-212]
+2022-06-04 13:11:37 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select*from [*]User"; expected "identifier"; SQL statement:
+select*from User [42001-212]
+2022-06-04 13:11:37 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select*from [*]User"; expected "identifier"; SQL statement:
+select*from User [42001-212]
+2022-06-04 13:11:37 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select*from [*]User"; expected "identifier"; SQL statement:
+select*from User [42001-212]
+2022-06-04 13:11:43 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select*from [*]user"; expected "identifier"; SQL statement:
+select*from user [42001-212]
+2022-06-04 13:11:43 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select*from [*]user"; expected "identifier"; SQL statement:
+select*from user [42001-212]
+2022-06-04 13:11:43 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select*from [*]user"; expected "identifier"; SQL statement:
+select*from user [42001-212]
+2022-06-04 13:11:44 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select*from [*]user"; expected "identifier"; SQL statement:
+select*from user [42001-212]
+2022-06-04 13:11:44 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select*from [*]user"; expected "identifier"; SQL statement:
+select*from user [42001-212]
+2022-06-04 13:11:44 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select*from [*]user"; expected "identifier"; SQL statement:
+select*from user [42001-212]
+2022-06-04 13:11:44 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select*from [*]user"; expected "identifier"; SQL statement:
+select*from user [42001-212]
+2022-06-04 13:11:44 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select*from [*]user"; expected "identifier"; SQL statement:
+select*from user [42001-212]
+2022-06-04 13:11:45 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select*from [*]user"; expected "identifier"; SQL statement:
+select*from user [42001-212]
+2022-06-04 13:12:49 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]user"; SQL statement:
+user [42000-212]
